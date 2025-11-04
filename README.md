@@ -56,7 +56,8 @@ A major finding was that **17.89%** of all bookings are **'Canceled by Driver'**
 ### Insight 2: Revenue Drivers (Vehicle Type)
 **'Prime Sedan'** is the most profitable category, generating **8.8M** in revenue, followed by 'Prime SUV' (5.5M).
 
-![Ratings Dashboard](Dashboard%20Screenshorts/rateings.png)
+![Vehicle Type Dashboard](Dashboard%20Screenshorts/vehicle%20type.png)
+
 
 
 ### Insight 3: True Customer Value
