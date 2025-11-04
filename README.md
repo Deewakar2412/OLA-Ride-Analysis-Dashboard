@@ -63,7 +63,8 @@ A major finding was that **17.89%** of all bookings are **'Canceled by Driver'**
 ### Insight 3: True Customer Value
 By switching the metric from "Booking Count" to **"Total Spending"** (on 'Success' rides only), we identified our *true* high-value customers.
 
-![Ratings Dashboard](Dashboard%20Screenshorts/rateings.png)
+![Revenue Dashboard](Dashboard%20Screenshorts/revenue.png)
+
 
 
 ### Insight 4: Demand Hotspots
