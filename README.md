@@ -70,7 +70,8 @@ By switching the metric from "Booking Count" to **"Total Spending"** (on 'Succes
 ### Insight 4: Demand Hotspots
 'Whitefield', 'Marathahalli', and 'Electronic City' are the top 3 pickup locations, indicating where driver allocation should be prioritized.
 
-![Vehicle Type Dashboard](Dashboard%20Screenshorts/vehicle%20type.png)
+![Ratings Dashboard](Dashboard%20Screenshorts/rateings.png)
+
 
 
 ## 6. SQL Analysis Highlights (Business Questions Answered)
