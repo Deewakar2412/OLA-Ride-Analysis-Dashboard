@@ -49,14 +49,15 @@ This project followed a 4-step data analysis pipeline:
 
 ### Insight 1: Operational Health (Booking Status)
 A major finding was that **17.89%** of all bookings are **'Canceled by Driver'**, representing a significant revenue leak and poor customer experience.
+
 ![Overall Dashboard](Dashboard%20Screenshorts/overall.png)
 
 
 ### Insight 2: Revenue Drivers (Vehicle Type)
 **'Prime Sedan'** is the most profitable category, generating **8.8M** in revenue, followed by 'Prime SUV' (5.5M).
 
-`[YAHAN APNA 'Total Revenue by Vehicle Type' KA SCREENSHOT LAGAYEIN]`
-*(File: 3. Dashboard/Dashboard_Screenshots/Screenshot 2025-11-03 193546.png)*
+![Ratings Dashboard](Dashboard%20Screenshorts/rateings.png)
+
 
 ### Insight 3: True Customer Value
 By switching the metric from "Booking Count" to **"Total Spending"** (on 'Success' rides only), we identified our *true* high-value customers.
