@@ -62,14 +62,14 @@ A major finding was that **17.89%** of all bookings are **'Canceled by Driver'**
 ### Insight 3: True Customer Value
 By switching the metric from "Booking Count" to **"Total Spending"** (on 'Success' rides only), we identified our *true* high-value customers.
 
-`[YAHAN APNA 'Top 5 Customers by Total Spending' KA SCREENSHOT LAGAYEIN]`
-*(File: 3. Dashboard/Dashboard_Screenshots/Screenshot 2025-11-03 193512.png)*
+![Ratings Dashboard](Dashboard%20Screenshorts/rateings.png)
+
 
 ### Insight 4: Demand Hotspots
 'Whitefield', 'Marathahalli', and 'Electronic City' are the top 3 pickup locations, indicating where driver allocation should be prioritized.
 
-`[YAHAN APNA 'Top 5 Pickup Location' KA SCREENSHOT LAGAYEIN]`
-*(File: 3. Dashboard/Dashboard_Screenshots/Screenshot 2025-11-03 193559.png)*
+![Vehicle Type Dashboard](Dashboard%20Screenshorts/vehicle%20type.png)
+
 
 ## 6. SQL Analysis Highlights (Business Questions Answered)
 
