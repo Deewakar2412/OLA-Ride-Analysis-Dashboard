@@ -1,9 +1,12 @@
-# 🚖 Ride-Hailing Performance Analysis & Insights Dashboard
+# 🚖 Ride-Hailing Performance Analysis & Insights Dashboard  
+
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?logo=power-bi&logoColor=black)
+![MS Office](https://img.shields.io/badge/MS%20Office-D83B01?logo=microsoft-office&logoColor=white)
 
 End-to-end data analysis of a **100k ride-hailing dataset**.  
 Cleaned with **Python (Pandas)**, analyzed with **SQL (13 queries)**, and visualized in a **Power BI performance dashboard**.
-
-![Final Dashboard Screenshot](3.%20Dashboard/Dashboard_Screenshots/01_Dashboard_Overview.png)
 
 ---
 
