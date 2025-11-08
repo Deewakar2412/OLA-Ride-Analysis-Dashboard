@@ -70,6 +70,20 @@ The management lacked clear, data-driven answers to critical business questions.
 ---
 <h2><a class="anchor" id="project-structure"></a>Project Structure</h2>
 
+```
+pizza-sales-analysis/
+│
+├── README.md
+│
+├── Data/                   
+│   ├── pizza_sales (3).csv
+│   ├── pizza_sales_excel_file (2).xlsx
+│
+├── Main Business Requirements Doc.pdf    
+│   └── Pizza_Sales_EDA.ipynb
+│
+├── Pizza_Sales_EDA.ipy
+
 ---
 <h2><a class="anchor" id="project-workflow--data-pipeline"></a>Project Workflow & Data Pipeline</h2>
 
