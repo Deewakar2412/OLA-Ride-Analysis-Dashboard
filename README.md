@@ -30,118 +30,27 @@
 - <a href="#author--contact">Author & Contact</a>
 
 ---
-```
-pizza-sales-analysis/
-│
-├── README.md
-│
-├── Data/                   
-│   ├── pizza_sales (3).csv
-│   ├── pizza_sales_excel_file (2).xlsx
-│
-├── Main Business Requirements Doc.pdf    
-│   └── Pizza_Sales_EDA.ipynb
-│
-├── Pizza_Sales_EDA.ipy
+## 🧠 Project Overview
+This project is an end-to-end **Ride-Hailing Performance Analysis** built on a dataset of **100,000 booking records**.
+It uncovers **what drives operational success, customer value, and revenue generation** through data cleaning, SQL analytics, and Power BI visualization.
 
-```
-<h2><a class="anchor" id="overview"></a>Overview</h2>
-
-This project is an end-to-end analysis of a 100,000-row dataset from a ride-hailing company. The primary goal is to transform raw, messy data into a clean, queryable database and, ultimately, into an interactive Power BI dashboard. This dashboard provides actionable insights to help management optimize operations, refine marketing strategies, and improve overall service quality.
+The analysis follows a complete **Data → Insight → Action** pipeline:
+1. **Data Preparation (Python)**: Cleaning and transforming the raw 100k-row Excel file.
+2. **Data Modeling & Analysis (SQL)**: Designing a database schema and running 13 analytical queries.
+3. **Visualization & Insight Generation (Power BI)**: Building a 4-quadrant dashboard to tell the business story.
+4. **Report & Documentation (Word & GitHub)**: Creating a BRD, Project Report, and a professional README.
 
 ---
-<h2><a class="anchor" id="business-problem"></a>Business Problem</h2>
-
-The management lacked clear, data-driven answers to critical business questions. This project was designed to solve that by addressing the following:
-- What is our true booking success rate, and why are rides failing?
-- Who are our most valuable customers (and is our current definition correct)?
-- Where is our revenue coming from in terms of vehicle types?
-- Where are our high-demand "hotspots," and where are driver cancellations most common?
+## 🎯 Objectives
+- Understand **booking success and failure rates** to identify operational problems.
+- Identify **true high-value customers** based on revenue, not just ride count.
+- Analyze **revenue streams** by vehicle type to find the most profitable segments.
+- Pinpoint **demand hotspots** and **high-cancellation zones** to optimize driver allocation.
 
 ---
-<h2><a class="anchor" id="dataset"></a>Dataset</h2>
 
-- **Source:** `1. Data/Raw_Data/Bookings-100000-Rows.xlsx`
-- **Rows:** 100,000
-- **Key Fields:**
-  - `Booking_ID`: Unique identifier for each booking.
-  - `Booking_Status`: 'Success', 'Canceled by Driver', 'Driver Not Found', etc.
-  - `Customer_ID`: Unique ID for each customer.
-  - `Vehicle_Type`: 'Prime Sedan', 'Prime SUV', 'Bike', etc.
-  - `Pickup_Location`: Starting point of the ride.
-  - `Booking_Value`: The revenue generated from the ride.
-  - `V_TAT`: Vehicle Turnaround Time (wait time).
-  - `Driver_Ratings`: Rating given to the driver.
-
----
-<h2><a class="anchor" id="tools--technologies"></a>Tools & Technologies</h2>
-
-- **Google Colab:** For data cleaning and preparation.
-- **Python:** The core language for data cleaning.
-- **Pandas:** For data loading, cleaning, and manipulation.
-- **SQL (PostgreSQL/MySQL):** For database creation, schema design, and analytical queries.
-- **Power BI:** For building the final interactive dashboard.
-
-
----
-<h2><a class="anchor" id="project-structure"></a>Project Structure</h2>
-
-```
-pizza-sales-analysis/
-│
-├── README.md
-│
-├── Data/                   
-│   ├── pizza_sales (3).csv
-│   ├── pizza_sales_excel_file (2).xlsx
-│
-├── Main Business Requirements Doc.pdf    
-│   └── Pizza_Sales_EDA.ipynb
-│
-├── Pizza_Sales_EDA.ipy
-
-```
----
-<h2><a class="anchor" id="project-workflow--data-pipeline"></a>Project Workflow & Data Pipeline</h2>
-
-This project followed a 4-step data pipeline:
-
-1.  **Data Cleaning (Python):** The raw `.xlsx` file was loaded into a Python (Pandas) script in Google Colab.
-    - Dropped unusable columns (`Incomplete_Rides_Reason`, `Canceled_Rides_by_Customer`).
-    - Imputed missing numerical data (`Driver_Ratings`, `V_TAT`) with the **median**.
-    - Imputed missing categorical data (`Payment_Method`) with the **mode**.
-    - Exported the final `cleaned_bookings.csv`.
-
-2.  **Data Modeling (SQL):** A SQL database schema (`CREATE TABLE ride_bookings`) was designed (see `2_Database_Schema.sql`) to store the cleaned data with appropriate data types.
-
-3.  **Data Analysis (SQL):** A set of 13 comprehensive SQL queries (see `3_Business_Analysis_Queries.sql`) were written to answer all key business questions, such as Top 10 Customers, Daily Revenue Trends, and High Cancellation Locations.
-
-4.  **Data Visualization (Power BI):** The SQL database was connected to Power BI. The SQL queries were used to create the final dashboard, visualizing all KPIs and findings.
-
----
-<h2><a class="anchor" id="key-performance-indicators-kpis"></a>Key Performance Indicators (KPIs)</h2>
-
-The dashboard immediately highlights the core business health metrics:
-- **Total Bookings:** 100k
-- **Booking Success Rate:** 62.08%
-- **Driver Cancellation Rate:** 17.89%
-- **Driver Not Found Rate:** 9.83%
-- **Top Revenue Source:** Prime Sedan (8.8M)
-
----
-<h2><a class="anchor" id="research-questions--key-findings"></a>Research Questions & Key Findings</h2>
-
-1.  **What is our operational health?**
-    * **Finding:** While 62.08% of rides are successful, the business is leaking significant revenue. The biggest problem is **'Canceled by Driver' (17.89%)**, which is almost double the 'Driver Not Found' rate (9.83%). This points to a driver-side issue, not just a supply issue.
-
-2.  **Where does our revenue come from?**
-    * **Finding:** The **'Prime Sedan'** category is the undisputed financial driver, responsible for **8.8M in revenue**. This is significantly more than the 'Prime SUV' (5.5M).
-
-3.  **Who are our most valuable customers?**
-    * **Finding:** The original metric (Booking Count) was **flawed** as it included canceled rides. By creating a new metric, **'Top Customers by Total Spending'** (on successful rides only), we identified the *true* high-value customers. The top customer (`CID995321`) alone contributed **77.3K** in revenue.
-
-4.  **Where is demand highest?**
-    * **Finding:** The top 3 pickup locations are **'Whitefield', 'Marathahalli', and 'Electronic City'**. This data is critical for operational focus and driver allocation.
+## 📊 Power BI Dashboard Overview
+A **4-quadrant interactive dashboard** was created to provide a 360-degree view of the business.
 
 ---
 <h2><a class="anchor" id="key-visualizations-dashboard"></a>Key Visualizations (Dashboard)</h2>
@@ -188,40 +97,51 @@ By switching the metric from **"Booking Count"** to **"Total Spending"** (on 'Su
 
 
 ---
-<h2><a class="anchor" id="how-to-run-this-project"></a>How to Run This Project</h2>
+## 💡 Key Insights & Recommendations
 
-This project involves three main components: Python, SQL, and Power BI.
+This analysis uncovered three critical insights that form the basis of our strategic recommendations:
 
-1.  **Data Cleaning:**
-    * Open `2. Scripts/1_Data_Cleaning.ipynb` in Google Colab or a local Jupyter environment.
-    * Upload the `Bookings-100000-Rows.xlsx` file.
-    * Run all cells to generate the `cleaned_bookings.csv` file.
-
-2.  **Database Setup:**
-    * In your SQL database (e.g., PostgreSQL, MySQL), run the `2. Scripts/2_Database_Schema.sql` script to create the `ride_bookings` table.
-    * Import the `cleaned_bookings.csv` data into this table.
-
-3.  **Analysis:**
-    * Use the queries in `2. Scripts/3_Business_Analysis_Queries.sql` to analyze the data directly in your SQL client.
-
-4.  **Dashboard:**
-    * Open `3. Dashboard/Ride_Performance_Dashboard.pbix` in Power BI.
-    * You may need to re-configure the data source to connect to *your* local SQL database.
+| Insight | Finding | Recommendation |
+| :--- | :--- | :--- |
+| **1. The Driver Cancellation Leak** | The single biggest problem is **17.89%** of all rides being **'Canceled by Driver'**. This is a massive revenue leak and source of customer dissatisfaction. | **Investigate High-Cancellation Zones:** Use SQL Query #12 to find *where* this happens most and survey drivers in those areas to find the root cause (traffic, payment, etc.). |
+| **2. The Flawed Customer Metric** | The old metric (Booking Count) was wrong. Our analysis (on 'Success' rides only) shows the Top Customer (`CID995321`) spent **77.3K**. | **Launch a VIP Program:** Stop rewarding "noisy" (high-cancellation) customers. Focus retention efforts and loyalty perks on the *true* Top Spenders. |
+| **3. The Revenue Engine** | **'Prime Sedan'** is the company's financial engine, generating **8.8M** in revenue, far more than any other category. | **Protect the 'Prime Sedan' Fleet:** Ensure this fleet has the best driver support, lowest wait times, and highest priority for maintenance and incentives. |
 
 ---
-<h2><a class="anchor" id="final-recommendations"></a>Final Recommendations</h2>
 
-Based on the analysis, the following strategic recommendations were provided to management:
 
-1.  **Operations: Investigate Driver Cancellations:** Immediately investigate the **17.89% driver cancellation rate**. Use SQL Query #12 (High Cancellation Locations) to see *where* this happens most. Survey drivers in those areas to find the root cause (e.g., traffic, payment issues, safety).
-2.  **Marketing: High-Value Customer Loyalty:** Stop using "Booking Count" as a metric. Launch a loyalty program or offer targeted discounts to the **"Top Customers by Total Spending"** to ensure their retention.
-3.  **Operations: Optimize Driver Allocation:** Increase driver supply and availability in **'Whitefield', 'Marathahalli', and 'Electronic City'** during peak hours to reduce the 'Driver Not Found' rate and capture more revenue.
+## ⚙️ SQL Analysis Highlights (13 Business Questions Answered)
+
+1.  What is the **Overall Booking Success Rate**?
+2.  What is the **Daily Revenue Trend** from successful rides?
+3.  What are the **Top Reasons for Failed Bookings** (Driver Cancel, No Driver, etc.)?
+4.  Who are the **Top 10 Most Valuable Customers** (by Total Spend)?
+5.  What is the **Average Driver Rating by Vehicle Type**?
+6.  What are the **Top 10 Most Popular Pickup Locations**?
+7.  What are the **Top 10 Most Popular Routes** (A to B)?
+8.  What is the **Impact of Wait Time (V_TAT)** on Driver Ratings?
+9.  What is the **Payment Method Distribution** (Cash vs. UPI)?
+10. What are the **Busiest Hours of the Day**?
+11. What is the **Average Ride Distance & Value** by Vehicle Type?
+12. What are the **Top Locations with High Driver Cancellation**?
+13. What are the characteristics of **Incomplete Rides**?
 
 ---
-<h2><a class="anchor" id="author--contact"></a>👤 Author & Contact</h2>
+## ⚙️ Python Data Preparation Highlights
 
-**Deewakar Kumar**
-* 📧 Email: `deewakar2412@gmail.com`
-* 📍 Bokaro, Jharkhand, India
-* [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/deewakarkumar2412/) 
-* [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Deewakar2412)
+1.  **Loaded Dataset:** Imported `Bookings-100000-Rows.xlsx` into a Pandas DataFrame.
+2.  **Dropped Unusable Columns:** Removed `Incomplete_Rides_Reason`, `Canceled_Rides_by_Customer`, and `Canceled_Rides_by_Driver` (due to >90% missing data).
+3.  **Imputed Missing Data (Numerical):** Filled `null` values in `Driver_Ratings`, `V_TAT`, and `C_TAT` using the **median** to avoid skew from outliers.
+4.  **Imputed Missing Data (Categorical):** Filled `null` values in `Payment_Method` using the **mode** (most frequent value).
+5.  **Standardized Formats:** Converted `Date` and `Time` columns to the correct datetime objects.
+6.  **Handled Missing Data (Default):** Filled `null` values in `Incomplete_Rides` with 'No' based on business logic.
+7.  **Saved Cleaned File:** Exported the fully prepped DataFrame to `cleaned_bookings.csv` for use in Power BI and SQL analysis.
+
+---
+
+## 🚀 How to Use
+
+1. Clone the repository:
+
+   ```bash
+   git clone [https://github.com/](https://github.com/)[YOUR_USERNAME]/Ride-Hailing-Analysis-Dashboard.git
