@@ -30,6 +30,21 @@
 - <a href="#author--contact">Author & Contact</a>
 
 ---
+```
+pizza-sales-analysis/
+│
+├── README.md
+│
+├── Data/                   
+│   ├── pizza_sales (3).csv
+│   ├── pizza_sales_excel_file (2).xlsx
+│
+├── Main Business Requirements Doc.pdf    
+│   └── Pizza_Sales_EDA.ipynb
+│
+├── Pizza_Sales_EDA.ipy
+
+```
 <h2><a class="anchor" id="overview"></a>Overview</h2>
 
 This project is an end-to-end analysis of a 100,000-row dataset from a ride-hailing company. The primary goal is to transform raw, messy data into a clean, queryable database and, ultimately, into an interactive Power BI dashboard. This dashboard provides actionable insights to help management optimize operations, refine marketing strategies, and improve overall service quality.
