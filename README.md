@@ -152,7 +152,7 @@ A major finding was that **17.89%** of all bookings are **"Canceled by Driver"**
 
 📊 **Visualization Reference:**
 
-![Total Revenue by Vehicle Type](Dashboard%20Screenshorts/rateings.png)
+![Total Revenue by Vehicle Type](Dashboard Screenshorts/vehicle type.png)
 
 
 ### 💎 Insight 3: True Customer Value
@@ -170,7 +170,7 @@ By switching the metric from **"Booking Count"** to **"Total Spending"** (on 'Su
 
 📊 **Visualization Reference:**
 
-![Top 5 Pickup Location](Dashboard%20Screenshorts/vehicle%20type.png)
+![Top 5 Pickup Location](Dashboard Screenshorts/rateings.png)
 
 
 ---
