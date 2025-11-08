@@ -16,18 +16,19 @@
 ---
 
 ## 📌 Table of Contents
-- <a href="#overview">Overview</a>
-- <a href="#business-problem">Business Problem</a>
-- <a href="#dataset">Dataset</a>
-- <a href="#tools--technologies">Tools & Technologies</a>
-- <a href="#project-structure">Project Structure</a>
-- <a href="#project-workflow--data-pipeline">Project Workflow & Data Pipeline</a>
-- <a href="#key-performance-indicators-kpis">Key Performance Indicators (KPIs)</a>
-- <a href="#research-questions--key-findings">Research Questions & Key Findings</a>
-- <a href="#key-visualizations-dashboard">Key Visualizations (Dashboard)</a>
-- <a href="#how-to-run-this-project">How to Run This Project</a>
-- <a href="#final-recommendations">Final Recommendations</a>
-- <a href="#author--contact">Author & Contact</a>
+- [Overview](#-project-overview)
+- [Objectives](#-objectives)
+- [Power BI Dashboard Overview](#-power-bi-dashboard-overview)
+- [Dashboard & Key Insights](#-5-dashboard--key-insights)
+  - [Insight 1: Operational Health (Booking Status)](#-insight-1-operational-health-booking-status)
+  - [Insight 2: Revenue Drivers (Vehicle Type)](#-insight-2-revenue-drivers-vehicle-type)
+  - [Insight 3: True Customer Value](#-insight-3-true-customer-value)
+  - [Insight 4: Demand Hotspots](#-insight-4-demand-hotspots)
+- [Key Insights & Recommendations](#-key-insights--recommendations)
+- [SQL Analysis Highlights](#-sql-analysis-highlights-13-business-questions-answered)
+- [Python Data Preparation Highlights](#-python-data-preparation-highlights)
+- [How to Use](#-how-to-use)
+- [Author & Contact](#-author)
 
 ---
 ## 🧠 Project Overview
