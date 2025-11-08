@@ -137,11 +137,14 @@ The full dashboard contains all insights. Below are some of the key charts that 
 
 ## 5. Dashboard & Key Insights
 
-### Insight 1: Operational Health (Booking Status)
-A major finding was that **17.89%** of all bookings are **'Canceled by Driver'**, representing a significant revenue leak and poor customer experience.
+### 🧩 Insight 1: Operational Health (Booking Status)
 
-`[YAHAN APNA 'Total Booking by Booking Status' KA SCREENSHOT LAGAYEIN]`
-*(Dashboard Screenshorts/overall.png)*
+A major finding was that **17.89%** of all bookings are **"Canceled by Driver"**, representing a significant **revenue leak** and **poor customer experience**.
+
+📊 **Visualization Reference:**
+
+![Total Booking by Booking Status](Dashboard%20Screenshorts/overall.png)
+
 
 ### Insight 2: Revenue Drivers (Vehicle Type)
 **'Prime Sedan'** is the most profitable category, generating **8.8M** in revenue, followed by 'Prime SUV' (5.5M).
