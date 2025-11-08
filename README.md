@@ -170,7 +170,8 @@ By switching the metric from **"Booking Count"** to **"Total Spending"** (on 'Su
 
 📊 **Visualization Reference:**
 
-![Top 5 Pickup Location](Dashboard Screenshorts/rateings.png)
+![Top 5 Pickup Location](Dashboard%20Screenshorts/rateings.png)
+
 
 
 ---
