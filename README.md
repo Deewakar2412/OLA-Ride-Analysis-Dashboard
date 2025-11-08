@@ -88,4 +88,21 @@ pizza-sales-analysis/
 ├── Pizza_Sales_EDA.ipy
 
 ```
+---
+<h2><a class="anchor" id="project-workflow--data-pipeline"></a>Project Workflow & Data Pipeline</h2>
 
+This project followed a 4-step data pipeline:
+
+1.  **Data Cleaning (Python):** The raw `.xlsx` file was loaded into a Python (Pandas) script in Google Colab.
+    - Dropped unusable columns (`Incomplete_Rides_Reason`, `Canceled_Rides_by_Customer`).
+    - Imputed missing numerical data (`Driver_Ratings`, `V_TAT`) with the **median**.
+    - Imputed missing categorical data (`Payment_Method`) with the **mode**.
+    - Exported the final `cleaned_bookings.csv`.
+
+2.  **Data Modeling (SQL):** A SQL database schema (`CREATE TABLE ride_bookings`) was designed (see `2_Database_Schema.sql`) to store the cleaned data with appropriate data types.
+
+3.  **Data Analysis (SQL):** A set of 13 comprehensive SQL queries (see `3_Business_Analysis_Queries.sql`) were written to answer all key business questions, such as Top 10 Customers, Daily Revenue Trends, and High Cancellation Locations.
+
+4.  **Data Visualization (Power BI):** The SQL database was connected to Power BI. The SQL queries were used to create the final dashboard, visualizing all KPIs and findings.
+
+---
