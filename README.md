@@ -135,17 +135,31 @@ The dashboard immediately highlights the core business health metrics:
 
 The full dashboard contains all insights. Below are some of the key charts that drove the final recommendations.
 
-**Booking Status Overview**
-*(This chart highlights the critical 17.89% Driver Cancellation rate.)*
-`![Booking Status](Dashboard Screenshorts/overall.png)`
+## 5. Dashboard & Key Insights
 
-**Total Revenue by Vehicle Type**
-*(This chart clearly shows 'Prime Sedan' as the main revenue driver.)*
-`![Revenue by Vehicle](3.%20Dashboard/Dashboard_Screenshots/Screenshot%202025-11-03%20193546.png)`
+### Insight 1: Operational Health (Booking Status)
+A major finding was that **17.89%** of all bookings are **'Canceled by Driver'**, representing a significant revenue leak and poor customer experience.
 
-**Top 5 Customers by Total Spending**
-*(This chart identifies the "hero" customers for marketing, based on revenue.)*
-`![Top 5 Customers](3.%20Dashboard/Dashboard_Screenshots/Screenshot%202025-11-03%20193512.png)`
+`[YAHAN APNA 'Total Booking by Booking Status' KA SCREENSHOT LAGAYEIN]`
+*(File: 3. Dashboard/Dashboard_Screenshots/Screenshot 2025-11-03 193528.png)*
+
+### Insight 2: Revenue Drivers (Vehicle Type)
+**'Prime Sedan'** is the most profitable category, generating **8.8M** in revenue, followed by 'Prime SUV' (5.5M).
+
+`[YAHAN APNA 'Total Revenue by Vehicle Type' KA SCREENSHOT LAGAYEIN]`
+*(File: 3. Dashboard/Dashboard_Screenshots/Screenshot 2025-11-03 193546.png)*
+
+### Insight 3: True Customer Value
+By switching the metric from "Booking Count" to **"Total Spending"** (on 'Success' rides only), we identified our *true* high-value customers.
+
+`[YAHAN APNA 'Top 5 Customers by Total Spending' KA SCREENSHOT LAGAYEIN]`
+*(File: 3. Dashboard/Dashboard_Screenshots/Screenshot 2025-11-03 193512.png)*
+
+### Insight 4: Demand Hotspots
+'Whitefield', 'Marathahalli', and 'Electronic City' are the top 3 pickup locations, indicating where driver allocation should be prioritized.
+
+`[YAHAN APNA 'Top 5 Pickup Location' KA SCREENSHOT LAGAYEIN]`
+*(File: 3. Dashboard/Dashboard_Screenshots/Screenshot 2025-11-03 193559.png)*
 
 ---
 <h2><a class="anchor" id="how-to-run-this-project"></a>How to Run This Project</h2>
