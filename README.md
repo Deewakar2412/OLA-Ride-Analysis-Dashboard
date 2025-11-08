@@ -146,23 +146,32 @@ A major finding was that **17.89%** of all bookings are **"Canceled by Driver"**
 ![Total Booking by Booking Status](Dashboard%20Screenshorts/overall.png)
 
 
-### Insight 2: Revenue Drivers (Vehicle Type)
-**'Prime Sedan'** is the most profitable category, generating **8.8M** in revenue, followed by 'Prime SUV' (5.5M).
+### 💰 Insight 2: Revenue Drivers (Vehicle Type)
 
-`[YAHAN APNA 'Total Revenue by Vehicle Type' KA SCREENSHOT LAGAYEIN]`
-*(File: 3. Dashboard/Dashboard_Screenshots/Screenshot 2025-11-03 193546.png)*
+**'Prime Sedan'** is the most profitable category, generating **8.8M** in revenue, followed by **'Prime SUV' (5.5M)**.
 
-### Insight 3: True Customer Value
-By switching the metric from "Booking Count" to **"Total Spending"** (on 'Success' rides only), we identified our *true* high-value customers.
+📊 **Visualization Reference:**
 
-`[YAHAN APNA 'Top 5 Customers by Total Spending' KA SCREENSHOT LAGAYEIN]`
-*(File: 3. Dashboard/Dashboard_Screenshots/Screenshot 2025-11-03 193512.png)*
+![Total Revenue by Vehicle Type](Dashboard%20Screenshorts/rateings.png)
 
-### Insight 4: Demand Hotspots
-'Whitefield', 'Marathahalli', and 'Electronic City' are the top 3 pickup locations, indicating where driver allocation should be prioritized.
 
-`[YAHAN APNA 'Top 5 Pickup Location' KA SCREENSHOT LAGAYEIN]`
-*(File: 3. Dashboard/Dashboard_Screenshots/Screenshot 2025-11-03 193559.png)*
+### 💎 Insight 3: True Customer Value
+
+By switching the metric from **"Booking Count"** to **"Total Spending"** (on 'Success' rides only), we identified our *true* high-value customers.
+
+📊 **Visualization Reference:**
+
+![Top 5 Customers by Total Spending](Dashboard%20Screenshorts/revenue.png)
+
+
+### 📍 Insight 4: Demand Hotspots
+
+**'Whitefield'**, **'Marathahalli'**, and **'Electronic City'** are the top 3 pickup locations, indicating where **driver allocation** should be prioritized.
+
+📊 **Visualization Reference:**
+
+![Top 5 Pickup Location](Dashboard%20Screenshorts/vehicle%20type.png)
+
 
 ---
 <h2><a class="anchor" id="how-to-run-this-project"></a>How to Run This Project</h2>
