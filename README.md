@@ -52,10 +52,6 @@ The analysis follows a complete **Data → Insight → Action** pipeline:
 ## 📊 Power BI Dashboard Overview
 A **4-quadrant interactive dashboard** was created to provide a 360-degree view of the business.
 
----
-<h2><a class="anchor" id="key-visualizations-dashboard"></a>Key Visualizations (Dashboard)</h2>
-
-The full dashboard contains all insights. Below are some of the key charts that drove the final recommendations.
 
 ## 5. Dashboard & Key Insights
 
@@ -63,7 +59,6 @@ The full dashboard contains all insights. Below are some of the key charts that 
 
 A major finding was that **17.89%** of all bookings are **"Canceled by Driver"**, representing a significant **revenue leak** and **poor customer experience**.
 
-📊 **Visualization Reference:**
 
 ![Total Booking by Booking Status](Dashboard%20Screenshorts/overall.png)
 
@@ -72,7 +67,6 @@ A major finding was that **17.89%** of all bookings are **"Canceled by Driver"**
 
 **'Prime Sedan'** is the most profitable category, generating **8.8M** in revenue, followed by **'Prime SUV' (5.5M)**.
 
-📊 **Visualization Reference:**
 
 ![Total Revenue by Vehicle Type](Dashboard Screenshorts/vehicle type.png)
 
@@ -81,7 +75,6 @@ A major finding was that **17.89%** of all bookings are **"Canceled by Driver"**
 
 By switching the metric from **"Booking Count"** to **"Total Spending"** (on 'Success' rides only), we identified our *true* high-value customers.
 
-📊 **Visualization Reference:**
 
 ![Top 5 Customers by Total Spending](Dashboard%20Screenshorts/revenue.png)
 
@@ -90,7 +83,6 @@ By switching the metric from **"Booking Count"** to **"Total Spending"** (on 'Su
 
 **'Whitefield'**, **'Marathahalli'**, and **'Electronic City'** are the top 3 pickup locations, indicating where **driver allocation** should be prioritized.
 
-📊 **Visualization Reference:**
 
 ![Top 5 Pickup Location](Dashboard%20Screenshorts/rateings.png)
 
