@@ -180,8 +180,8 @@ Based on the analysis, the following strategic recommendations were provided to 
 ---
 <h2><a class="anchor" id="author--contact"></a>👤 Author & Contact</h2>
 
-**[Aapka Naam Yahan Likhein]**
-* 📧 Email: `[Aapka Email Yahan Likhein]`
-* 📍 [Aapka Sheher, India]
-* [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/[YOUR_LINKEDIN_PROFILE]/)
-* [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/[YOUR_GITHUB_USERNAME])
+**Deewakar Kumar**
+* 📧 Email: `deewakar2412@gmail.com`
+* 📍 Bokaro, Jharkhand, India
+* [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/deewakarkumar2412/) 
+* [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Deewakar2412)
