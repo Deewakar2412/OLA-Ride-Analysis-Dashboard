@@ -137,7 +137,7 @@ The full dashboard contains all insights. Below are some of the key charts that 
 
 **Booking Status Overview**
 *(This chart highlights the critical 17.89% Driver Cancellation rate.)*
-`![Booking Status](3.%20Dashboard/Dashboard_Screenshots/Screenshot%202025-11-03%20193528.png)`
+`![Booking Status](Dashboard/Dashboard_Screenshots/Screenshot 2025-11-03 193528.png)`
 
 **Total Revenue by Vehicle Type**
 *(This chart clearly shows 'Prime Sedan' as the main revenue driver.)*
