@@ -67,8 +67,6 @@ The management lacked clear, data-driven answers to critical business questions.
 - **SQL (PostgreSQL/MySQL):** For database creation, schema design, and analytical queries.
 - **Power BI:** For building the final interactive dashboard.
 
----
-<h2><a class="anchor" id="project-structure"></a>Project Structure</h2>
 
 ---
 <h2><a class="anchor" id="project-structure"></a>Project Structure</h2>
